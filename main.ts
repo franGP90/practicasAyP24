@@ -4,7 +4,7 @@ import { Nino, Ubicacion } from "./types.ts";
 
 const url = 'mongodb+srv://fgonzalezp3:fgonzalezp3@kikoc.v6p0n.mongodb.net/?retryWrites=true&w=majority&appName=kikoC';
 const client = new MongoClient(url);
-
+//hola
 const dbName = 'BDP3';
 
 await client.connect();
